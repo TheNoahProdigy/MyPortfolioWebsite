@@ -29,14 +29,13 @@ jobs:
       - name: Build
         run: ${RUNNER_TEMP}/hugo
 
-      - name: Deploy to gh-pages
+      - name: Deploy
         if: github.ref == 'refs/heads/main'
         run: |
-          cd built-site
-          git init
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp -R public/* ${GITHUB_WORKSPACE}/built-site/
+          cd ${GITHUB_WORKSPACE}/built-site
           git add .
-          git commit -m "Deploy site"
-          git branch -M gh-pages
-          git push -f https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git gh-pages
+          git config user.name 'TheNoahProdigy'
+          git config user.email 'noahterrywilson@gmail.com'
+          git commit -m 'Updated site'
+          git push
