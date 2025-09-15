@@ -32,7 +32,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # Uses built-in token
+          github_token: ${{ secrets.GITHUB_TOKEN }} 
           publish_dir: ./public
-          publish_branch: gh-pages  # Change to main if deploying user site root
+          publish_branch: gh-pages 
           keep_files: true
