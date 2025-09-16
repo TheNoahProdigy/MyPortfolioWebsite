@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Noah Wilson | Portfolio Website</title>
+    <link>https://thenoahprodigy.github.io/MyPortfolioWebsite/</link>
+    <description>Recent content on Noah Wilson | Portfolio Website</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Sep 2025 11:12:51 -0400</lastBuildDate>
+    <atom:link href="https://thenoahprodigy.github.io/MyPortfolioWebsite/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project1</title>
+      <link>https://thenoahprodigy.github.io/MyPortfolioWebsite/projects/project1/</link>
+      <pubDate>Tue, 16 Sep 2025 11:12:51 -0400</pubDate>
+      <guid>https://thenoahprodigy.github.io/MyPortfolioWebsite/projects/project1/</guid>
+      <description>&lt;h3 id=&#34;this-is-project-1&#34;&gt;This is project 1&lt;/h3&gt;
+&lt;p&gt;Will include info and links soon! yay&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
