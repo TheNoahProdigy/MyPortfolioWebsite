@@ -6,4 +6,4 @@ title: 'Project1'
 
 ### This is project 1
 
-Will include info and links soon!
+Will include info and links soon! yay
