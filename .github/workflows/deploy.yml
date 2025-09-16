@@ -28,7 +28,7 @@ jobs:
       
       - name: Build
         run: | 
-          hugo --cleanDestinationDir
+          ${RUNNER_TEMP}/hugo --cleanDestinationDir
           ${RUNNER_TEMP}/hugo
 
       - name: Deploy
