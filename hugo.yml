@@ -1,4 +1,13 @@
 baseURL: "https://thenoahprodigy.github.io/MyPortfolioWebsite/"
 languageCode: en-us
-title: Noah Wilson - Portfolio Website
+title: Noah Wilson | Portfolio Website
 theme: PaperMod
+menu:
+  main:
+    - name: "About"
+      url: "/about/"
+      weight: 1
+
+    - name: "Projects"
+      url: "/projects/"
+      weight: 2
