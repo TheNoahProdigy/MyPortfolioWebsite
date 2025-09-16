@@ -6,4 +6,4 @@ title: 'About Me'
 
 ### This is an about me page
 
-Content coming soon!
+Content coming soon! Yay

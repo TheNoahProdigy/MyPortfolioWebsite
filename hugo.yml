@@ -4,8 +4,8 @@ title: Noah Wilson | Portfolio Website
 theme: PaperMod
 menu:
   main:
-    - name: "About"
-      url: "/about/"
+    - name: "About Me"
+      url: "/aboutMe/"
       weight: 1
 
     - name: "Projects"
