@@ -31,7 +31,7 @@ jobs:
       - name: Deploy
         if: github.ref == 'refs/heads/main'
         run: |
-          rsync -av --delete public/ ${GITHUB_WORKSPACE}/built-site/
+          cp -R public/* ${GITHUB_WORKSPACE}/built-site/
           cd ${GITHUB_WORKSPACE}/built-site
           touch ./.nojekyll
           git add .
