@@ -6,16 +6,21 @@ theme: PaperMod
 params:
   profileMode:
     enabled: true
-    title: "My Portfolio Website" 
-    #subtitle: "Welcome to my portfolio! Explore my 'About Me' and 'Projects' section to learn more."
+    title: "Noah Wilson" 
+    subtitle: "Game Developer & Software Engineer"
     imageUrl: images/homePagePicZ.jpg 
     imageTitle: "A picture of me" 
-    imageWidth: 300 # custom size
-    imageHeight: 350 # custom size
+    imageWidth: 300 
+    imageHeight: 350 
 
-  socialIcons: # optional
+  socialIcons:
   - name: Linkedin
     url: https://www.linkedin.com/in/noah-rt-wilson
+  - name: github
+    url: https://github.com/TheNoahProdigy
+  - name: youtube
+    url: https://www.youtube.com/@NoahsDevLogs
+    
 
 menu:
   main:
