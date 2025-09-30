@@ -4,7 +4,7 @@ draft: false
 
 # About Me
 
-*Insert Photo*
+![A pic of me](aboutMePic.jpg)
 
 Hello, I'm Noah. Thank you for taking interest in learning more about me!
 
@@ -61,7 +61,17 @@ Software development, like game development, is about using the tools available 
 ---
 
 ## Outside of Work
+Outside of work, I love playing PC games, as well as building PCs. I've built several PCs from scratch, including my own, my partner's, and my friend's PCs. 
+
+I also regularly go to the gym (~4 years now), and I track everything I eat to meet my fitness and health goals. 
+
+I play sports with my friends, like basketball and rock climbing. I enjoy improving over time and pushing myself.  
 
 ---
 
 ## Contact Me
+**Email** *(Preferred)*: noahterrywilson@gmail.com
+
+**Phone:** 343-571-9152
+
+[LinkedIn](https://www.linkedin.com/in/noah-rt-wilson)
