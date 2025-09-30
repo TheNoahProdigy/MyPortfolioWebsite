@@ -4,6 +4,4 @@ draft: false
 title: 'Projects'
 ---
 
-### This is the main project page
-
-It will contain links to all my projects
+Welcome to my projects page! Here you can find a bunch of projects I've worked on. 

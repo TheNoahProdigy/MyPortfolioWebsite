@@ -1,8 +1,8 @@
 ---
 draft: false
+title: About Me
+ShowBreadCrumbs: false
 ---
-
-# About Me
 
 ![A pic of me](aboutMePic.jpg)
 

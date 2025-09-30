@@ -4,6 +4,9 @@ title: Noah Wilson | Portfolio Website
 theme: PaperMod
 
 params:
+
+  ShowBreadCrumbs: true
+
   profileMode:
     enabled: true
     title: "Noah Wilson" 
