@@ -14,7 +14,7 @@ Make Me Laugh is a short 2D collection-style game that was built in 2 days for G
 
 In this game, you play as a clown with no teeth as you attempt to collect them all from a creepy abandoned circus. 
 
-![Clown](noTeethIdleS.png)
+![ClownNoTeeth](noTeethIdleS2.png) 
 
 ### Code
 
@@ -38,7 +38,10 @@ Play on [itch.io](https://stacyg15.itch.io/make-me-laugh) in **fullscreen** (*cl
 ---
 
 ## Tech Stack
-
+- Unity
+- C#
+- Github (*collaboration and version control*)
+- TextMeshPro (*Unity plugin*)
 ---
 
 ## Challenges Solved / What I Learned
