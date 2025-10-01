@@ -10,7 +10,7 @@ cover:
 ---
 
 ## Overview
-Make Me Laugh is a short 2D collection-style game that was built in 2 days for Global Game Jam 2024.
+Make Me Laugh is a short 2D collection-style game that was built by my partner and I in 2 days for Global Game Jam 2024.
 
 In this game, you play as a clown with no teeth as you attempt to collect them all from a creepy abandoned circus. 
 
@@ -23,7 +23,7 @@ Check out the github [repository.](https://github.com/StacyG15/MakeMeLaugh)
 If you're interested in seeing the code click *assets* >> *scripts* 
 
 ### Demo
-*Insert quick video*
+{{< youtube  THt70XlHRv4 >}}
 
 ---
 
@@ -42,10 +42,3 @@ Play on [itch.io](https://stacyg15.itch.io/make-me-laugh) in **fullscreen** (*cl
 - C#
 - Github (*collaboration and version control*)
 - TextMeshPro (*Unity plugin*)
----
-
-## Challenges Solved / What I Learned
-
----
-
-## Limitations / Future Improvements
