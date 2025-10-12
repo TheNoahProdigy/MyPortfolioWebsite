@@ -34,23 +34,29 @@ This program utilizes a custom deque data structure, which stores the pirates, e
 
 Several C-Structs and C-Arrays are used to store data both dynamically and statically. 
 
-#### Memory Managment
+#### Memory Management
+
+Memory is allocated at the start of each run through initialization functions. After the threads for a run finish and stats are collected, clean up functions free memory to ensure no memory leaks - which is important for preserving program and system stability, as hundreds of runs can happen during a single execution of the program. 
 
 #### Threads
 
 Multiple threads are spun up by leveraging the pthreads library, and using the semaphore library ensures data synchronization. 
 
+For any given run, 3 threads are spawned (1 for each scenario). Each of those threads spawns 2 fighter threads (1 for each hero), so that the heroes can fight the pirates in the deque simultaneously. 
 
 ### Demo
 
 
 ---
 
-## Execution Instructions
-
----
-
 ## Tech Stack
-- C
-- Make files
+**Languages:** C
+
+**Build Tools:** GCC, Make
+
+**Environment:** Ubuntu Linux
+
+**Technologies:** Multithreading (pthreads), Semaphores
+
+
 
