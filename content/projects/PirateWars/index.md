@@ -6,6 +6,7 @@ cover:
   image: PirateWars.png
   alt: "A pic of the project code"
   relative: false 
+weight: 2
 ---
 
 ## Overview

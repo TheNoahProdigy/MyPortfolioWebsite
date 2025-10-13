@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: 'Oasis Pro Software'
 summary: "Software for a medical device in Qt C++"
 #cover:
