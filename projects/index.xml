@@ -16,25 +16,18 @@
       <description>A 2D Unity game made during Global Game Jam 2024</description>
     </item>
     <item>
-      <title>NFTheif</title>
-      <link>https://thenoahprodigy.github.io/MyPortfolioWebsite/projects/nftheif/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://thenoahprodigy.github.io/MyPortfolioWebsite/projects/nftheif/</guid>
-      <description>A 2D parkour platformer built in Godot</description>
-    </item>
-    <item>
-      <title>Oasis Pro Software</title>
-      <link>https://thenoahprodigy.github.io/MyPortfolioWebsite/projects/oasispromedicaldevice/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://thenoahprodigy.github.io/MyPortfolioWebsite/projects/oasispromedicaldevice/</guid>
-      <description>Software for a medical device in Qt C++</description>
-    </item>
-    <item>
       <title>Pirate Wars C Battle Simulation</title>
       <link>https://thenoahprodigy.github.io/MyPortfolioWebsite/projects/piratewars/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://thenoahprodigy.github.io/MyPortfolioWebsite/projects/piratewars/</guid>
       <description>A multi-threaded battle simulation in C</description>
+    </item>
+    <item>
+      <title>More Coming Soon!</title>
+      <link>https://thenoahprodigy.github.io/MyPortfolioWebsite/projects/comingsoon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://thenoahprodigy.github.io/MyPortfolioWebsite/projects/comingsoon/</guid>
+      <description>I&amp;rsquo;m actively showcasing and working on more projects.</description>
     </item>
   </channel>
 </rss>
