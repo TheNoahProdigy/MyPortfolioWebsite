@@ -9,18 +9,18 @@
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://thenoahprodigy.github.io/MyPortfolioWebsite/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Make Me Laugh</title>
-      <link>https://thenoahprodigy.github.io/MyPortfolioWebsite/projects/makemelaugh/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://thenoahprodigy.github.io/MyPortfolioWebsite/projects/makemelaugh/</guid>
-      <description>A 2D Unity game made during Global Game Jam 2024</description>
-    </item>
-    <item>
       <title>Pirate Wars C Battle Simulation</title>
       <link>https://thenoahprodigy.github.io/MyPortfolioWebsite/projects/piratewars/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://thenoahprodigy.github.io/MyPortfolioWebsite/projects/piratewars/</guid>
       <description>A multi-threaded battle simulation in C</description>
+    </item>
+    <item>
+      <title>Make Me Laugh</title>
+      <link>https://thenoahprodigy.github.io/MyPortfolioWebsite/projects/makemelaugh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://thenoahprodigy.github.io/MyPortfolioWebsite/projects/makemelaugh/</guid>
+      <description>A 2D Unity game made during Global Game Jam 2024</description>
     </item>
     <item>
       <title>More Coming Soon!</title>
