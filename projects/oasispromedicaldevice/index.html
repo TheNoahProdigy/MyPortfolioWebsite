@@ -62,7 +62,9 @@
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="projects">
-<meta name="twitter:card" content="summary">
+    <meta property="og:image" content="https://thenoahprodigy.github.io/MyPortfolioWebsite/OasisPro.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://thenoahprodigy.github.io/MyPortfolioWebsite/OasisPro.png">
 <meta name="twitter:title" content="Oasis Pro Software">
 <meta name="twitter:description" content="Software for a medical device in Qt C&#43;&#43;">
 
@@ -97,10 +99,10 @@
   "keywords": [
     
   ],
-  "articleBody": "",
-  "wordCount" : "0",
+  "articleBody": "Overview This project was the final assignment for a third-year software engineering course I took during my undergraduate studies. It taught/reinforced OOP principles and common design patterns. This course is the conclusion of a string of OOP-centric development classes, all of which taught me software development skills in several languages (Python, Java, C++). Through this breadth of exposure, I learned the fundamental software engineering skills which transcend a particular language.\nMy group (Antwan Gad, Jesse Mendoza, Tristan Turner, Victoria Nguyen) and I developed this medical device software in C++ using the Qt framework. It’s designed to fulfill a set of requirements similar to what a client would provide in a contract.\nDocumentation If you’re curious about the documentation here you can find the main use case, UML diagrams, how to test section, and more.\nSystem Architecture The system architecture is divided into two primary components:\nBackend (Device Layer): Manages the device’s internal logic, including session handling, user management, and state control Frontend (MainWindow Layer): Provides a Qt-based GUI through which users could interact with the simulated device, altering internal states and observing system feedback in real time Design Best Practices \u0026 OOP Principles Encapsulation: Core functionalities in Session, User, and Device are privatized to enforce internal handling and reduce coupling.\nAbstraction: High-level objects like Device, User, and Session encapsulate their own data and behavior, mirroring real-world entities and clarifying the codebase.\nModularity \u0026 Layered Architecture: A dedicated interface layer connects backend logic to the GUI, isolating presentation from logic and enabling independent development and testing.\nState Management: Device state uses Boolean flags and float values (e.g., battery percentage), updated dynamically through user interaction and simulated device activity.\nSimulation \u0026 Real-Time Behavior: QTimer objects simulate time-dependent processes like battery depletion, closely mimicking hardware behavior.\nDocumentation \u0026 Verification: UML diagrams (sequence, activity, state) document system behavior, and a traceability matrix links requirements to implementation and tests, ensuring coverage and validation.\nCode Check out the github repository.\nDemo Tech Stack Language \u0026 Framework: C++ with Qt\nArchitecture \u0026 Design: Object-Oriented Programming, Modular Layered Design, UML Documentation\nState \u0026 Simulation: QTimer for time-dependent behavior, Boolean and float variables for device state\nTesting \u0026 Verification: Traceability matrix, functional test cases\n",
+  "wordCount" : "365",
   "inLanguage": "en",
-  "datePublished": "0001-01-01T00:00:00Z",
+  "image":"https://thenoahprodigy.github.io/MyPortfolioWebsite/OasisPro.png","datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
   "mainEntityOfPage": {
     "@type": "WebPage",
@@ -183,6 +185,69 @@
 
 </div>
   </header> 
+<figure class="entry-cover">
+            <img loading="eager"
+                srcset='https://thenoahprodigy.github.io/MyPortfolioWebsite/projects/oasispromedicaldevice/OasisPro_hu_f4813e1fa7589a7e.png 360w,https://thenoahprodigy.github.io/MyPortfolioWebsite/projects/oasispromedicaldevice/OasisPro_hu_87289e8b0f0a556.png 480w,https://thenoahprodigy.github.io/MyPortfolioWebsite/projects/oasispromedicaldevice/OasisPro_hu_d5ba3ca6ec1cf8aa.png 720w,https://thenoahprodigy.github.io/MyPortfolioWebsite/projects/oasispromedicaldevice/OasisPro.png 932w'
+                src="https://thenoahprodigy.github.io/MyPortfolioWebsite/projects/oasispromedicaldevice/OasisPro.png"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="932" height="632"
+                alt="C&#43;&#43; Device Code">
+        
+</figure>
+  <div class="post-content"><h2 id="overview">Overview<a hidden class="anchor" aria-hidden="true" href="#overview">#</a></h2>
+<p>This project was the final assignment for a third-year software engineering course I took during my undergraduate studies. It taught/reinforced OOP principles and common design patterns. This course is the conclusion of a string of OOP-centric development classes, all of which taught me software development skills in several languages (Python, Java, C++). Through this breadth of exposure, I learned the fundamental software engineering skills which transcend a particular language.</p>
+<p>My group (<em>Antwan Gad, Jesse Mendoza, Tristan Turner, Victoria Nguyen</em>) and I developed this medical device software in C++ using the Qt framework. It&rsquo;s designed to fulfill a set of requirements similar to what a client would provide in a contract.</p>
+<h3 id="documentation">Documentation<a hidden class="anchor" aria-hidden="true" href="#documentation">#</a></h3>
+<p>If you&rsquo;re curious about the documentation <a href="OasisProDocumentation.pdf">here</a> you can find the main use case, UML diagrams, how to test section, and more.</p>
+<h3 id="system-architecture">System Architecture<a hidden class="anchor" aria-hidden="true" href="#system-architecture">#</a></h3>
+<p>The system architecture is divided into two primary components:</p>
+<ul>
+<li>Backend (Device Layer): Manages the device’s internal logic, including session handling, user management, and state control</li>
+<li>Frontend (MainWindow Layer): Provides a Qt-based GUI through which users could interact with the simulated device, altering internal states and observing system feedback in real time</li>
+</ul>
+<h3 id="design-best-practices--oop-principles">Design Best Practices &amp; OOP Principles<a hidden class="anchor" aria-hidden="true" href="#design-best-practices--oop-principles">#</a></h3>
+<ul>
+<li>
+<p>Encapsulation:
+Core functionalities in Session, User, and Device are privatized to enforce internal handling and reduce coupling.</p>
+</li>
+<li>
+<p>Abstraction:
+High-level objects like Device, User, and Session encapsulate their own data and behavior, mirroring real-world entities and clarifying the codebase.</p>
+</li>
+<li>
+<p>Modularity &amp; Layered Architecture:
+A dedicated interface layer connects backend logic to the GUI, isolating presentation from logic and enabling independent development and testing.</p>
+</li>
+<li>
+<p>State Management:
+Device state uses Boolean flags and float values (e.g., battery percentage), updated dynamically through user interaction and simulated device activity.</p>
+</li>
+<li>
+<p>Simulation &amp; Real-Time Behavior:
+QTimer objects simulate time-dependent processes like battery depletion, closely mimicking hardware behavior.</p>
+</li>
+<li>
+<p>Documentation &amp; Verification:
+UML diagrams (sequence, activity, state) document system behavior, and a traceability matrix links requirements to implementation and tests, ensuring coverage and validation.</p>
+</li>
+</ul>
+<h3 id="code">Code<a hidden class="anchor" aria-hidden="true" href="#code">#</a></h3>
+<p>Check out the github <a href="https://github.com/TheNoahProdigy/MedicalDeviceSoftware">repository.</a></p>
+<h3 id="demo">Demo<a hidden class="anchor" aria-hidden="true" href="#demo">#</a></h3>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/EH2gb4paxHE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<hr>
+<h2 id="tech-stack">Tech Stack<a hidden class="anchor" aria-hidden="true" href="#tech-stack">#</a></h2>
+<p><strong>Language &amp; Framework:</strong> C++ with Qt</p>
+<p><strong>Architecture &amp; Design</strong>: Object-Oriented Programming, Modular Layered Design, UML Documentation</p>
+<p><strong>State &amp; Simulation</strong>: QTimer for time-dependent behavior, Boolean and float variables for device state</p>
+<p><strong>Testing &amp; Verification</strong>: Traceability matrix, functional test cases</p>
+
+
+  </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
