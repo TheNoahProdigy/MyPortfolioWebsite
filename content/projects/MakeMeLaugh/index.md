@@ -6,7 +6,7 @@ cover:
   image: images/MakeMeLaughC.png
   alt: "An in-game pic"
   relative: false 
-weight: 1
+weight: 3
 # tags: ["GameDev", "Unity", "2D", "C#"] add tags to projects later?
 ---
 
